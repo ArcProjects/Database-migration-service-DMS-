@@ -391,6 +391,8 @@ It should still show the application ... this is now pointed at the RDS instance
 # STAGE 4 Finish
 
 ![dms-endstage](https://user-images.githubusercontent.com/90862957/232964553-26beda6a-cd42-4da8-9ec8-d529456fe2c6.png)
+
+
 At this point you have created a VPC peer between the simulated On-premises environment and AWS
 You have fully migrated the wordpress application files from on-premises (simulated) into AWS  
 You have provisioned an RDS DB Instance  
