@@ -13,10 +13,11 @@ This demo consists of 6 stages :-
 - STAGE 4 : Migrate Database & Cutover
 - STAGE 5 : Cleanup the account
 
+---
+# STAGE 1 : Provision the environment and review task
+---
 
----
 # STAGE 1A - Infrastructure Creation
----
 
 
 
@@ -45,10 +46,10 @@ Copy down its `Public IPv4 DNS` into your clipboard and open it in a new tab.
 You should see the `Animals4life Hall of Fame` load... this is running from the simulated onpremises environment using the CatDB mariaDB instance.  
 
 ----
+# STAGE 2 : Establish Private Connectivity Between the environments (VPC Peer)
+-----
+
 # STAGE 2A - Create a VPC peer between On-Premises and AWS
-----
-
-
 
 ![dms-stage2](https://user-images.githubusercontent.com/90862957/232962776-467ba062-5238-4054-a683-fdbeebf68499.png)
 
@@ -104,8 +105,12 @@ you have also configured routing from ONPremises -> AWS and vice-versa.
 In stage 3 you will use this architecture to begin a migration.  
 
 ---
+# STAGE 3 : Create & Configure the AWS Side infrastructure (App and DB)
+----
+
+
 # STAGE 3A - CREATE THE RDS INSTANCE
----
+
 
 ![dms-stage3](https://user-images.githubusercontent.com/90862957/232963928-f233e250-7d42-4cd2-8fb3-b70259bcabed.png)
 
@@ -251,8 +256,11 @@ In the next stage you will migrate the on-premises DB to AWS using DMS.
 **before you continue, make sure the a4lwordpress RDS DB is in an Available state** https://console.aws.amazon.com/rds/home?region=us-east-1#databases:  
 
 ---
-# STAGE 4A - CREATE THE DMS SUBNET GROUP
+# STAGE 4 : Migrate Database & Cutover
 ---
+
+# STAGE 4A - CREATE THE DMS SUBNET GROUP
+
 
 ![dms](https://user-images.githubusercontent.com/90862957/232964406-1c7f1af4-3ec8-4142-8f71-863af47d0c7f.png)
 
@@ -390,8 +398,10 @@ And you have used DMS to perform a simple migration of the database from on-prem
 
 
 -----
-# STAGE 5A - EC2
+# STAGE 5 : Cleanup the account
 -----
+
+# STAGE 5A - EC2
 
 ![dms-endstage](https://user-images.githubusercontent.com/90862957/232964553-26beda6a-cd42-4da8-9ec8-d529456fe2c6.png)
 
