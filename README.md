@@ -1,10 +1,10 @@
-#  Migrating a database with the Database MIgration Service
+#  Migrating a database with the Database Migration Service
 
-In this advanced demo you will be migrating a simple web application (wordpress) from an on-premises environment into AWS.  
+In this demo you will be migrating a simple web application (wordpress) from an on-premises environment into AWS.  
 The on-premises environment is a virtual web server (simulated using EC2) and a self-managed mariaDB database server (also simulated via EC2)  
 You will be migrating this into AWS and running the architecture on an EC2 webserver and RDS managed SQL database.  
 
-This demo consists of 6 stages :-
+This demo consists of 5 stages :-
 
 
 - [STAGE 1 : Provision the environment and review task](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-1--provision-the-environment-and-review-task)
