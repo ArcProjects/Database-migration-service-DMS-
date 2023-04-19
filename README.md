@@ -7,11 +7,11 @@ You will be migrating this into AWS and running the architecture on an EC2 webse
 This demo consists of 6 stages :-
 
 
-- [STAGE 1 : Provision the environment and review task](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-1---finish)
-- [STAGE 2 : Establish Private Connectivity Between the environments (VPC Peer)](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-2a---create-a-vpc-peer-between-on-premises-and-aws)
-- STAGE 3 : Create & Configure the AWS Side infrastructure (App and DB)
-- STAGE 4 : Migrate Database & Cutover
-- STAGE 5 : Cleanup the account
+- [STAGE 1 : Provision the environment and review task](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-1--provision-the-environment-and-review-task)
+- [STAGE 2 : Establish Private Connectivity Between the environments (VPC Peer)](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-2--establish-private-connectivity-between-the-environments-vpc-peer)
+- [STAGE 3 : Create & Configure the AWS Side infrastructure (App and DB)](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-3--create--configure-the-aws-side-infrastructure-app-and-db)
+- [STAGE 4 : Migrate Database & Cutover](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-4--migrate-database--cutover)
+- [STAGE 5 : Cleanup the account](https://github.com/ArcProjects/Database-migration-service-DMS-#stage-5--cleanup-the-account)
 
 ---
 # STAGE 1 : Provision the environment and review task
