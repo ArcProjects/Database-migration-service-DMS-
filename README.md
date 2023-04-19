@@ -14,6 +14,7 @@ This demo consists of 6 stages :-
 - STAGE 5 : Cleanup the account
 
 
+---
 
 # STAGE 1A - Infrastructure Creation
 
@@ -40,11 +41,7 @@ Click `Running Instances`
 Select the `CatWEB` instance  
 Copy down its `Public IPv4 DNS` into your clipboard and open it in a new tab.  
 You should see the `Animals4life Hall of Fame` load... this is running from the simulated onpremises environment using the CatDB mariaDB instance.  
-
-
-
-
-
+----
 
 # STAGE 2A - Create a VPC peer between On-Premises and AWS
 
@@ -99,6 +96,5 @@ At this point you have created the peering connection between the VPCs and the g
 you have also configured routing from ONPremises -> AWS and vice-versa.  
 In stage 3 you will use this architecture to begin a migration.  
 
-
-
+---
 
